@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/mk"
+        android:title="音乐"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/service"
+        android:enabled="true"
+        android:icon="@drawable/book"
+        android:title="书城"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/message"
+        android:enabled="true"
+        android:icon="@drawable/xin"
+        android:title="收藏"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/personal"
+        android:enabled="true"
+        android:icon="@drawable/github"
+        android:title="代码"
+        app:showAsAction="ifRoom" />
+</menu>
